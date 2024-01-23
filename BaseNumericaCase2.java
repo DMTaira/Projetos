@@ -1,4 +1,4 @@
-
+// testando a edição pela web no github
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -180,7 +180,7 @@ public class BaseNumericaCase2 {
         double [] arrayNumEntrada = new double[17];
         int[] arrayIntHhMmSs = new int[3];
         String [] arrayStringHhMmSs = new String[3];
-        double numero= 0;
+        double numero = 0;
         String reversedStr = new String();
 
         if (tipoConversao < 60) {
@@ -188,7 +188,6 @@ public class BaseNumericaCase2 {
             for (int i = 0; i < stringEntrada.length(); i++) {
                 reversedStr = stringEntrada.charAt(i) + reversedStr;
             }
-
             char[] arrayStringEntrada = reversedStr.toCharArray();
 
             for (int i = 0; i < stringEntrada.length(); i++) {
@@ -229,3 +228,5 @@ public class BaseNumericaCase2 {
     }
 }
 
+"Adicionado comentário no inicio do código"
+    
